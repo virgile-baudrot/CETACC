@@ -29,7 +29,7 @@ C_{i,in} = \frac{TrIng_{i, tot}}{k_{out}}\left\( 1 - e^{- k_{i,out} t} \right\)
 
 ### About $TrIng_{\dot, tot}$
 
-A juvenile is only exposed to the contaminant through the maternal feeding (milk). Note that a new-born has likely been exposed through maternal gestation.
+A juvenile is only exposed to the contaminant through the maternal feeding (milk). Note that a new-born has likely been exposed through maternal gestation, that is, at time $t=0$ (or birth date) $C_{j,in}(t=birth) = C_{j,init}>0$.
 
 \[
 TrIng_{j, tot} = \eta_{j} \times I_{maternal} \times C_{maternal}
@@ -46,7 +46,14 @@ In both equations, we have:
 - $I_i$: the ingestion rate of item $i$ (e.g., $kg.day^{-1}$),
 - $C_i$: the concentration in item $i$ (e.g., $mg.kg^{-1}$).
 
+Ingestion rate:
 
+\[
+I_i = \phi_i \times B_i
+\]
+
+- $\phi_i$ is the proportion of item $i$ in the diet.
+- $B_i$ is the Biomass of item $i$ in the diet (e.g., mean biomass of whole or part of ingested individuals of species $i$).
 
 
 
