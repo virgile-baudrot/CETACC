@@ -5,6 +5,8 @@ date: "`r Sys.Date()`"
 output:
   html_vignette:
     toc: true
+  pdf_document:
+    toc: true
 self_contained: no
 vignette: |
   %\VignetteIndexEntry{Models} %\VignetteEncoding{UTF-8} %\VignetteEngine{knitr::rmarkdown}
