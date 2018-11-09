@@ -1,14 +1,13 @@
 ---
-title: "Vignette Title"
+title: "Models"
 author: "Matthieu Authier, Virgile Baudrot, Paula Mendez Fernandez"
 date: "`r Sys.Date()`"
-output: rmarkdown::html_vignette
-vignette: >
-  %\VignetteIndexEntry{Vignette Title}
-  %\VignetteEncoding{UTF-8}
-  %\VignetteEngine{knitr::rmarkdown}
-editor_options: 
-  chunk_output_type: console
+output:
+  html_vignette:
+    toc: true
+self_contained: no
+vignette: |
+  %\VignetteIndexEntry{Models} %\VignetteEncoding{UTF-8} %\VignetteEngine{knitr::rmarkdown}
 ---
 
 ```{r setup, include = FALSE}
